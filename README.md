@@ -1,16 +1,16 @@
-CM12.1 Manifests
+CM13 Manifests
 ========================
 Project Vee3 / Project V1
 
-Local manifests to build Android LolliPop 5.1 to L3II and L1II
+Local manifests to build Android MarshMallow 6.0 to L3II and L1II
 
-To initialize CM12.1 Repo:
+To initialize CM13.0 Repo:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-12.1 -g all,-notdefault,-darwin
+    repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0 -g all,-notdefault,-darwin
 
 To initialize Repo's:
 
-    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/TeamVee/android_.repo_local_manifests/cm-12.1/local_manifest.xml
+    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/TeamVee/android_.repo_local_manifests/cm-13.0/local_manifest.xml
 
 To sync:
 
