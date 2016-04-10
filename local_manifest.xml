@@ -3,6 +3,7 @@
 	<!-- Remote names -->
 	<remote name="thlg" fetch="https://github.com/TeamHackLG/" />
 	<remote name="tv" fetch="https://github.com/TeamVee/" />
+	<remote name="aidas" fetch="https://github.com/aidasaidas75/" />
 	<!-- Unofficial Builds -->
 	<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 	<!-- Use Custom HAL -->
@@ -11,7 +12,9 @@
 	<!-- Team Vee TWRP -->
 	<project path="bootable/recovery-omni" name="android_bootable_recovery" revision="cm-12.1" remote="tv" />
 	<!-- Vee Projects -->
-	<project path="device/lge/vee3" name="android_device_lge_vee3" revision="cm-12.1" remote="tv" />
+	<project path="device/lge/msm7x27a-common" name="android_device_lge_msm7x27a-common" revision="cm-12.1" remote="aidas"/>
+        <project path="device/lge/e610" name="android_device_lge_e610" revision="cm-12.1" remote="aidas"/>
+        <project path="vendor/lge" name="aidasaidas75/proprietary_vendor_lge" revision="cm-12.1-new" remote="github"/>
 	<!-- Common Projects -->
 	<project path="kernel/lge/msm7x27a-common" name="lge-kernel-lproj" revision="android-msm-3.4-kk" remote="thlg" />
 	<project path="vendor/lge" name="android_vendor_lge" revision="cm-12.1" remote="tv" />
